@@ -9,12 +9,13 @@ credits: true
 ---
 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
-
 {% include feature/nav-menu.html sections="About CollectionBuilder CSV;About the About Page" %}
 
 ## About CollectionBuilder CSV
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+This demo collection features items from New York University's archive of Calabash: A Journal of Caribbean Arts & Letters, and is built using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+
+_Calabash: A Journal of Caribbean Arts and Letters_ was an international literary journal dedicated to publishing works encompassing, but not limited to, the Anglophone, Francophone, Hispanophone and Dutch-speaking Caribbean. The Journal was especially dedicated to presenting the arts and letters of those communities that have long been under-represented within the creative discourse of the region, among them: Aruba and the Netherlands Antilles, Maroon societies, and the Asian and Amerindian societies of the region. Calabash had a strong visual arts component.
 
 CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
 
@@ -27,7 +28,7 @@ The resulting static site can be hosted on any basic web server.
 [CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
 See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+This demo collection was prepared and completed by Gabrielle Afable, David Najera-Castillo, and Sara Sarmiento as coursework in INFO 663: Metadata Design (Prof. Alexandra Provo | Spring 2024).
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
+{% include feature/image.html objectid="demo_001" width="75" %} 
 {% include cb/about_the_about.md %} 
