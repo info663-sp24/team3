@@ -1,6 +1,32 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
-subject,,true,
-location,,true,
-identifier,,,true,Identifier
+objectid,Object ID,,,
+title,Article Title,,,
+display_template,Display Template,,,
+object_location,File URL,,,
+identifier,DOI,,,
+jats_journal_title,Journal Title,,,
+jats_volume,Volume Number,TRUE,,Volume Number
+jats_issue,Issue Number,TRUE,,Issue Number
+date,Date of Publication,,,Date of Publication
+jats_season,Season,,,
+description,Description ,,,
+type,Type of Article,TRUE,,Type of Article
+creator_1,Creator,TRUE,,Creator
+creator_2,Creator,TRUE,,Creator
+creator_3,Creator,TRUE,,Creator
+creator_4,Creator,TRUE,,Creator
+creator_5,Creator,TRUE,,Creator
+dc_contributor,Translator,TRUE,,Translator
+subject,Subject(s),TRUE,,Subject(s)
+local_file_name,File Name,,,
+jats_fpage,First Page,,,
+jats_lpage,Last Page,,,
+rights,Rights Statement,,,
+jats_mixed_citation,Citation,,,
+jats_issn,ISSN,,,
+dc_publisher,Journal Publisher,,,
+jats_alternate_title,Alternative Title,,,
+language,Language of Document,TRUE,,Language of Document
+languagetranslatedfrom,Language Translated From,TRUE,,Language Translated From
+jats_bio_1,Biography,,,
+jats_bio_2,Biography,,,
