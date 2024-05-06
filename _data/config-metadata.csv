@@ -1,28 +1,33 @@
 field,display_name,browse_link,ext_link,dc_map,schema_map
-identifier,Object ID,,,,
+objectid,Object ID,,,,
 title,Article Title,,,DCTERMS:title,name
-content-type,Display Template,,,DCTERMS:format,fileFormat
-ext-link,File URL,,,DCTERMS:identifier,contentUrl
+display_template,Display Template,,,DCTERMS:format,fileFormat
+object_location,File URL,,,DCTERMS:identifier,contentUrl
 identifier,DOI,,,DCTERMS:identifier,identifier
-journal-title,Journal Title,TRUE,,DCTERMS: isPartOf,periodical
-issn,ISSN,,,,issn
-volume,Volume Number,TRUE,,,volumeNumber
-issue,Issue Number,TRUE,,,issueNumber
-pub-date,Date of Publication,TRUE,,DCTERMS:date,datePublished
-season,Season,,,,publication
+jats_journal_title,Journal Title,TRUE,,DCTERMS: isPartOf,periodical
+jats_volume,Volume Number,TRUE,,,volumeNumber
+jats_issue,Issue Number,TRUE,,,issueNumber
+date,Date of Publication,TRUE,,DCTERMS:date,datePublished
+jats_season,Season,,,,publication
 description,Description ,,,DCTERMS:description,abstract
 type,Type of Article,TRUE,,"DCTERMS:type
 ",genre
-creator,Creator,TRUE,,DCTERMS:creator,author
-contributor,Translator,TRUE,,DCTERMS: contributor,translator
+creator_1,Creator,,,,
+creator_2,Creator,,,,
+creator_3,Creator,,,,
+creator_4,Creator,,,,
+creator_5,Creator,TRUE,,DCTERMS:creator,author
+dc_contributor,Translator,TRUE,,DCTERMS: contributor,translator
 subject,Subject(s),TRUE,,DCTERMS:subject,keywords
-file-name,File Name,,,,
-fpage,First Page,,,,pageStart
-lpage,Last Page,,,,pageEnd
+local_file_name,File Name,,,,
+jats_fpage,First Page,,,,pageStart
+jats_lpage,Last Page,,,,pageEnd
 rights,Rights Statement,,,DCTERMS:RightsStatement,copyrightNotice
-mixed-citation,Citation,,,DCTERMS:bibliographicCitation,citation
-publisher,Journal Publisher,,,DCTERMS:publisher,publisher
-alternate-title,Alternative Title,,,DCTERMS:alternative,alternateName
+jats_mixed_citation,Citation,,,DCTERMS:bibliographicCitation,citation
+jats_issn,ISSN,,,,
+dc_publisher,Journal Publisher,,,DCTERMS:publisher,publisher
+jats_alternate_title,Alternative Title,,,DCTERMS:alternative,alternateName
 language,Language of Document,TRUE,,DCTERMS:language,inLanguage
 languagetranslatedfrom,Language Translated From,TRUE,,,
-bio,Biography,,,,
+jats_bio_1,Biography,,,,
+jats_bio_2,Biography,,,,
