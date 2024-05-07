@@ -1,8 +1,5 @@
 field,display_name,btn,hidden,sort_name
 title,Article Title,,,
-jats_journal_title,Journal Title,,,
-jats_volume,Volume Number,,TRUE,Volume Number
-jats_issue,Issue Number,,TRUE,Issue Number
 type,Type of Article,TRUE,,Type of Article
 creator_1,Creator,TRUE,,Creator
 creator_2,Creator,TRUE,,Additional Creator
