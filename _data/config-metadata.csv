@@ -4,19 +4,19 @@ title,Article Title,,,DCTERMS:title,name
 display_template,Display Template,,,DCTERMS:format,fileFormat
 object_location,File URL,,,DCTERMS:identifier,contentUrl
 identifier,DOI,,,DCTERMS:identifier,identifier
-jats_journal_title,Journal Title,TRUE,,DCTERMS: isPartOf,periodical
-jats_volume,Volume Number,TRUE,,,volumeNumber
-jats_issue,Issue Number,TRUE,,,issueNumber
+jats_journal_title,Journal Title,,,DCTERMS: isPartOf,periodical
+jats_volume,Volume Number,,,,volumeNumber
+jats_issue,Issue Number,,,,issueNumber
 date,Date of Publication,TRUE,,DCTERMS:date,datePublished
 jats_season,Season,,,,publication
 description,Description ,,,DCTERMS:description,abstract
-type,Type of Article,TRUE,,"DCTERMS:type
+type,Type of Article,,,"DCTERMS:type
 ",genre
-creator_1,Creator,,,,
+creator_1,Creator,TRUE,,,
 creator_2,Creator,,,,
 creator_3,Creator,,,,
 creator_4,Creator,,,,
-creator_5,Creator,TRUE,,DCTERMS:creator,author
+creator_5,Creator,,,DCTERMS:creator,author
 dc_contributor,Translator,TRUE,,DCTERMS: contributor,translator
 subject,Subject(s),TRUE,,DCTERMS:subject,keywords
 local_file_name,File Name,,,,
