@@ -5,19 +5,19 @@ display_template,Display Template,,,
 object_location,File URL,,,
 identifier,DOI,,,
 jats_journal_title,Journal Title,,,
-jats_volume,Volume Number,TRUE,,Volume Number
-jats_issue,Issue Number,TRUE,,Issue Number
+jats_volume,Volume Number,TRUE,TRUE,Volume Number
+jats_issue,Issue Number,TRUE,TRUE,Issue Number
 date,Date of Publication,,,Date of Publication
 jats_season,Season,,,
 description,Description ,,,
-type,Type of Article,TRUE,,Type of Article
+type,Type of Article,TRUE,TRUE,Type of Article
 creator_1,Creator,TRUE,,Creator
-creator_2,Creator,TRUE,,Creator
-creator_3,Creator,TRUE,,Creator
-creator_4,Creator,TRUE,,Creator
-creator_5,Creator,TRUE,,Creator
+creator_2,Creator,TRUE,,Additional Creator
+creator_3,Creator,TRUE,TRUE,
+creator_4,Creator,TRUE,TRUE,
+creator_5,Creator,TRUE,TRUE,
 dc_contributor,Translator,TRUE,,Translator
-subject,Subject(s),TRUE,,Subject(s)
+subject,Subject(s),TRUE,TRUE,Subject(s)
 local_file_name,File Name,,,
 jats_fpage,First Page,,,
 jats_lpage,Last Page,,,
