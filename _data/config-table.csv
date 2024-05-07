@@ -1,5 +1,9 @@
 field,display_name
-title,Title
-date,Date
-description,Description
-subject,Subjects
+title,Article Title
+type,Type of Article
+creator_1,Creator
+creator_2,Creator
+dc_contributor,Translator
+subject,Subject(s)
+language,Language of Document
+languagetranslatedfrom,Language Translated From
