@@ -12,7 +12,7 @@ jats_season,Season,,,,publication
 description,Description ,,,DCTERMS:description,abstract
 type,Type of Article,,,"DCTERMS:type
 ",genre
-creator_1,Creator,TRUE,,,
+creator_1,Creator,true,,,
 creator_2,Creator,,,,
 creator_3,Creator,,,,
 creator_4,Creator,,,,
