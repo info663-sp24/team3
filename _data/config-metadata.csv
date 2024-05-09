@@ -27,7 +27,7 @@ jats_mixed_citation,Citation,,,DCTERMS:bibliographicCitation,citation
 jats_issn,ISSN,,,,
 dc_publisher,Journal Publisher,,,DCTERMS:publisher,publisher
 jats_alternate_title,Alternative Title,,,DCTERMS:alternative,alternateName
-language,Language of Document,TRUE,,DCTERMS:language,inLanguage
+language,Language of Document,true,,DCTERMS:language,inLanguage
 languagetranslatedfrom,Language Translated From,TRUE,,,
 jats_bio_1,Biography,,,,
 jats_bio_2,Biography,,,,
